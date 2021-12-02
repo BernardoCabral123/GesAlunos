@@ -1,0 +1,28 @@
+body{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eee !important;
+}
+
+.registo{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white !important;
+    border-radius: 25px;
+}
+
+p{
+    color: dimgrey;
+}
+
+
+
+@media (max-width:700px) {
+    body{
+        background: white !important;
+    }
+}
